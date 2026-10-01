@@ -66,3 +66,24 @@ The dataset contains information related to cinema transactions, movie informati
 | Time Category | `day_category` |
 
 ---
+
+🧹 Data Preparation
+
+The data was prepared in Power BI before being used for dashboard development.
+
+The preparation process includes:
+
+1. Reviewing the available fields and data structure.
+2. Organizing transaction and reference data.
+3. Connecting the transaction table with movie, channel, and payment mapping tables.
+4. Establishing relationships between the tables.
+5. Preparing numerical fields for aggregation.
+6. Creating the necessary calculations and measures for dashboard KPIs.
+7. Designing interactive visualizations based on the business questions.
+
+---
+📊 Dashboard
+
+The dashboard provides an interactive overview of cinema sales performance.
+
+Dashboard Preview
