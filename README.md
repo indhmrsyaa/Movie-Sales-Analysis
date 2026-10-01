@@ -43,29 +43,97 @@ The main objectives of this project are:
 
 ---
 
-## 🗂️ Dataset
+# 🎬 Cinema Sales Analysis – Dataset
 
-The main transactional dataset used in this project is **Data Final**.
+This folder contains the datasets used for the **Movie & Channel Analysis Dashboard**.
 
-The dataset contains information related to cinema transactions, movie information, customers, payment methods, sales channels, studios, seats, and ticket purchases.
+The dataset consists of a main cinema transaction dataset and several supporting master/mapping tables used during the data preparation and modeling process.
 
-### Main fields in the transaction dataset
+## 📂 Dataset Structure
 
-| Category | Fields |
+| File / Folder | Description |
 |---|---|
-| Transaction | `order_id`, `transaction_date`, `transaction_time` |
-| Movie | `Movie ID`, `Movie Title`, `Genre`, `Rating` |
-| Show | `show_date`, `show_time`, `studio_number`, `auditorium_type`, `seat_number` |
-| Customer | `customer_name` |
-| Sales | `quantity`, `ticket_price`, `subtotal`, `total_payment` |
-| Payment | `payment_method` |
-| Channel | `channel` |
-| Combo | `combo_name`, `combo_price`, `combo_addon` |
-| Status | `status` |
-| Source | `Source.Name` |
-| Time Category | `day_category` |
+| [Raw Data Bioskop](./Raw%20Data%20Bioskop/) | Contains the main raw cinema transaction dataset |
+| [Channel_Mapping_Cinema.csv](./Channel_Mapping_Cinema.csv) | Mapping table for standardizing cinema transaction channels |
+| [Movie Master.xlsx](./Movie%20Master.xlsx) | Master table containing movie information |
+| [Payment_Mapping_Cinema.csv](./Payment_Mapping_Cinema.csv) | Mapping table for standardizing payment methods |
 
----
+## 📊 Dataset Components
+
+### 1. Raw Data Bioskop
+
+The **Raw Data Bioskop** folder contains the main transaction dataset used as the primary source for the analysis.
+
+The dataset contains transaction-level information such as:
+
+- Order ID
+- Movie ID
+- Movie Title
+- Genre
+- Rating
+- Channel
+- Payment Method
+- Auditorium Type
+- Studio Number
+- Show Date & Time
+- Seat Number
+- Quantity
+- Ticket Price
+- Combo
+- Subtotal
+- Total Payment
+- Transaction Date
+- Transaction Time
+- Transaction Status
+
+This dataset serves as the main source for calculating the dashboard's KPIs and performing transaction analysis.
+
+### 2. Movie Master
+
+**Movie Master** is a supporting master table containing additional movie information.
+
+Main columns include:
+
+- Movie ID
+- Movie Title
+- Genre
+- Rating
+
+The table is connected to the transaction data using **Movie ID**.
+
+**Relationship:**
+
+`Movie Master (1) → Raw Transaction Data (*)`
+
+### 3. Channel Mapping
+
+**Channel_Mapping_Cinema.csv** is used to standardize and categorize transaction channels.
+
+Main columns:
+
+- Channel
+- Channel Mapping
+
+The table is connected to the transaction data using **Channel**.
+
+**Relationship:**
+
+`Channel Mapping (1) → Raw Transaction Data (*)`
+
+### 4. Payment Mapping
+
+**Payment_Mapping_Cinema.csv** is used to standardize and categorize payment methods.
+
+Main columns:
+
+- Payment Method
+- Payment Mapping
+
+The table is connected to the transaction data using **Payment Method**.
+
+**Relationship:**
+
+`Payment Mapping (1) → Raw Transaction Data (*)`
 
 ## 🧹 Data Preparation
 
