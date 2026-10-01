@@ -82,7 +82,7 @@ The preparation process includes:
 7. Designing interactive visualizations based on the business questions.
 
 ---
-📊 Dashboard
+## 📊 Dashboard
 
 The dashboard provides an interactive overview of movie sales performance.
 
@@ -90,3 +90,16 @@ The dashboard provides an interactive overview of movie sales performance.
 
 ![sales Dashboard](Movie-Sales-Dashboard.png)
 ![movie and channel](Movie-and-Channel.png)
+
+## 💡 Business Insights
+
+- Total revenue mencapai **Rp3,59 Miliar** dari **20.000 transaksi** dan **44.495 tiket terjual**, dengan rata-rata **2 tiket per transaksi**.
+- **Online** menjadi channel utama dengan kontribusi **61,88% transaksi** dan revenue sekitar **Rp2,22 Miliar**, lebih tinggi dibandingkan Offline sebesar Rp1,37 Miliar.
+- **Petualangan Bumi** dan **Speed Beyond...** menjadi movie dengan revenue tertinggi, masing-masing sekitar **Rp370 Juta**.
+- Genre **Animasi/Keluarga** dan **Aksi** menunjukkan kontribusi revenue tertinggi, masing-masing sekitar **Rp370 Juta**.
+- **QRIS** menjadi metode pembayaran paling sering digunakan dengan **3.407 transaksi**, diikuti Kartu Debit/Kredit sebanyak 3.364 transaksi dan GoPay sebanyak 3.335 transaksi.
+- **93,47% transaksi berhasil diselesaikan**, sementara 3,51% cancelled dan 3,02% refunded, sehingga terdapat **6,53% transaksi yang berpotensi menyebabkan kehilangan revenue**.
+- Revenue mengalami fluktuasi sepanjang **Juni 2025**, dengan revenue harian berada pada kisaran **Rp103–159 Juta**.
+- **Weekday** menjadi kontributor revenue terbesar dengan sekitar **Rp1,68 Miliar**, diikuti Weekend Rp1,48 Miliar dan Libur Nasional Rp427 Juta.
+- **Auditorium Premiere** menghasilkan revenue tertinggi sekitar **Rp1,08 Miliar**, diikuti IMAX sekitar Rp853 Juta.
+- **Combo Attachment Rate sebesar 37,78%** menunjukkan adanya peluang untuk meningkatkan revenue melalui strategi bundling tiket dan combo.
