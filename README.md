@@ -88,4 +88,5 @@ The dashboard provides an interactive overview of movie sales performance.
 
 ### Dashboard Preview
 
-![Employee Attrition Dashboard](Movie-Sales-Dashboard.png)
+![sales Dashboard](Movie-Sales-Dashboard.png)
+![movie and channel](Movie-and-Channel.png)
