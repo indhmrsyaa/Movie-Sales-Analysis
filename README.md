@@ -88,4 +88,4 @@ The dashboard provides an interactive overview of cinema sales performance.
 
 ### Dashboard Preview
 
-![Employee Attrition Dashboard](employee_attrition_dashboard.png)
+![Employee Attrition Dashboard](Movie-Sales-Dashboard.png)
