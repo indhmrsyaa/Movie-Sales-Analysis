@@ -86,4 +86,6 @@ The preparation process includes:
 
 The dashboard provides an interactive overview of cinema sales performance.
 
-Dashboard Preview
+### Dashboard Preview
+
+![Employee Attrition Dashboard](employee_attrition_dashboard.png)
