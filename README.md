@@ -67,7 +67,7 @@ The dataset contains information related to cinema transactions, movie informati
 
 ---
 
-🧹 Data Preparation
+## 🧹 Data Preparation
 
 The data was prepared in Power BI before being used for dashboard development.
 
