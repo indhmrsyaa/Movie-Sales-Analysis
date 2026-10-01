@@ -1,0 +1,8 @@
+﻿payment_method,Payment_Mapping
+Kartu Debit/Kredit,Non Cash
+GoPay,Non Cash
+ShopeePay,Non Cash
+DANA,Non Cash
+OVO,Non Cash
+QRIS,Non Cash
+Tunai,Cash
