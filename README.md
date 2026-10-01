@@ -84,7 +84,7 @@ The preparation process includes:
 ---
 📊 Dashboard
 
-The dashboard provides an interactive overview of cinema sales performance.
+The dashboard provides an interactive overview of movie sales performance.
 
 ### Dashboard Preview
 
